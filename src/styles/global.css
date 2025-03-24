@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kode Mono', monospace;
+  background-color: #000;
+  color: white;
+  overflow: hidden;
+}
+
+/* Pixelated effect for the entire site */
+html {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+button {
+  font-family: 'Kode Mono', monospace;
+}
+
+/* For better pixel font rendering */
+h1, h2, h3, p, button, a {
+  letter-spacing: 1px;
+}
