@@ -20,26 +20,46 @@ Whether you're a beginner or an expert, this app will help you understand how cr
 
 
 📂 Folder Structure
+
 Crypto_Visualiser/
+
 │── src/
+
 │   ├── assets/               # Static assets (images, icons, etc.)
+
 │   ├── components/           # Reusable UI components (Navbar, Buttons, etc.)
+
 │   ├── pages/                # Individual pages (Landing, AES, etc.)
+
 │   ├── styles/               # Global & component styles
+
 │   ├── App.jsx               # Main App component
+
 │   ├── main.jsx              # React entry point
+
 │   ├── index.html            # Main HTML file
+
 │── .gitignore
+
 │── package.json
+
 │── README.md                 # You are here! 📌
 
+
 🛠️ Tech Stack
+
 Technology --> Usage
+
 React.js --> Frontend Framework
+
 Vite --> Fast build tool for React
+
 CSS --> Modules	Styling
+
 Figma --> UI/UX Design
+
 Firebase (Planned) --> Backend services
+
 
 🚧 Roadmap 🛣️
 📌 Phase 1: Core UI & Algorithm Implementation ✅
