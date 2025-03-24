@@ -1,4 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;500;600;700&display=swap');
+.placeholder-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  color: #C3B1E1;
+  font-family: 'Kode Mono', monospace;
+  font-size: 2rem;
+  text-align: center;
+  background: radial-gradient(ellipse at center, rgba(195, 177, 225, 0.3) 0%, rgba(0, 0, 0, 1) 70%);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit {
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+
+.credit a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.credit a:hover {
+  text-decoration: underline;
+}
+
+/* Add this to your global.css file */
+.placeholder-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.placeholder-page {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+/* Add these styles to your global.css file */
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.github-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
 * {
   margin: 0;
@@ -10,7 +84,7 @@ body {
   font-family: 'Kode Mono', monospace;
   background-color: #000;
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* Pixelated effect for the entire site */

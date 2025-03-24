@@ -1,0 +1,86 @@
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    position: relative;
+    color: white;
+    font-family: 'Kode Mono', monospace;
+  }
+  
+  .home-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(195, 177, 225, 0.3) 0%, rgba(0, 0, 0, 1) 70%);
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .home-content {
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: 0 1rem;
+  }
+  
+  .tilde-icon {
+    font-size: 2rem;
+    color: #ffabc4;
+    text-shadow: 
+      0 0 5px #ffabc4,
+      0 0 10px rgba(255, 171, 196, 0.5);
+  }
+  
+  .japanese-title {
+    font-size: 3rem;
+    color: #ffabc4;
+    text-shadow: 
+      0 0 5px #ffabc4,
+      0 0 10px rgba(255, 171, 196, 0.5);
+    letter-spacing: 0.5rem;
+  }
+  
+  .algorithms-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .algorithms-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-link:hover {
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 767px) {
+    .algorithms-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .welcome-section {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  }

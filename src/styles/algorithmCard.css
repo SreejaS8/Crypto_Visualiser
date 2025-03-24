@@ -1,0 +1,200 @@
+.algorithm-card {
+    background-color: rgba(195, 177, 225, 0.6);
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 
+      0 0 0 1px #C3B1E1,
+      0 0 10px rgba(195, 177, 225, 0.5);
+  }
+  
+  .algorithm-card:hover {
+    background-color: rgba(195, 177, 225, 0.7);
+    box-shadow: 
+      0 0 0 2px #C3B1E1,
+      0 0 15px rgba(195, 177, 225, 0.7);
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .algorithm-title {
+    font-family: 'Kode Mono', monospace;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding-right: 15px;
+    text-align: right;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 2;
+    flex: 1;
+  }
+  
+  .illustration-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+  }
+  
+  /* Phone illustration */
+  .phone-illustration {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hand-holding-phone {
+    position: relative;
+    width: 80px;
+    height: 120px;
+  }
+  
+  .phone {
+    width: 40px;
+    height: 70px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    position: relative;
+    border: 2px solid #333;
+  }
+  
+  .message-bubble {
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    background-color: #6fee7e;
+    color: #333;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Key illustration */
+  .key-illustration {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hand-with-bracelet {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    background-color: #ffccbc;
+    border-radius: 20px;
+  }
+  
+  .key-object {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ffd700;
+  }
+  
+  /* Teacher illustration */
+  .teacher-illustration {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .teacher-frame {
+    width: 100px;
+    height: 100px;
+    background-color: #a5d6a7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+  }
+  
+  .teacher-figure {
+    width: 50px;
+    height: 70px;
+    background-color: #b39ddb;
+    position: relative;
+  }
+  
+  .teacher-hair {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #ff80ab;
+    border-radius: 50% 50% 0 0;
+  }
+  
+  /* Computer illustration */
+  .computer-illustration {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .people-at-computer {
+    position: relative;
+    width: 120px;
+    height: 100px;
+  }
+  
+  .person-one {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 30px;
+    height: 50px;
+    background-color: #ffeb3b;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .person-two {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    width: 30px;
+    height: 50px;
+    background-color: #aed581;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .computer-screen {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 60px;
+    height: 40px;
+    background-color: #64b5f6;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
