@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import LandingPage from './pages/landing_pg';
 import Home from './pages/home';
 import AESPage from './pages/aes';
+import RSAPage from './pages/rsa';
 import Footer from './components/Footer';
 import './styles/global.css';
 
@@ -22,15 +23,18 @@ function App() {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/aes" element={<AESPage />} />
-        <Route path="/rsa" element={<PlaceholderPage text="RSA Page (Coming Soon)" />} />
-        <Route path="/hmac" element={<PlaceholderPage text="HMAC Page (Coming Soon)" />} />
-        <Route path="/sha256" element={<PlaceholderPage text="SHA-256 Page (Coming Soon)" />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+      <div className="flex flex-col min-h-screen">
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/aes" element={<AESPage />} />
+            <Route path="/rsa" element={<RSAPage />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
     </Router>
   );
 }

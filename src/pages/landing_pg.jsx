@@ -1,9 +1,7 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
 import '../styles/landing_pg.css';
 import Button from '../components/Button';
-import Navbar from '../components/Navbar';
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -22,7 +20,6 @@ const LandingPage = () => {
         </h1>
         <Button label="Start Learning" onClick={handleStartLearning} />
       </div>
-      <Footer />
     </div>
   );
 };

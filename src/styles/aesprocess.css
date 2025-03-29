@@ -1,0 +1,120 @@
+.aes-process-container {
+    padding: 20px;
+    color: #ffffff; /* Default text color */
+  }
+  
+  .aes-process-container h2 {
+    color: #C3B1E1;
+    text-shadow: 0 0 10px #C3B1E1, 0 0 10px rgba(195, 177, 225, 0.5);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+  }
+  
+  .input-section {
+    margin-bottom: 15px;
+  }
+  
+  .input-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #C3B1E1;
+    text-shadow: 0 0 5px #C3B1E1, 0 0 5px rgba(195, 177, 225, 0.5);
+  }
+  
+  .input-section input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  .button-section {
+    margin-bottom: 20px;
+  }
+  
+  .glow-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #C3B1E1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #C3B1E1, 0 0 5px rgba(195, 177, 225, 0.5);
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .glow-button:hover {
+    background-color: #555;
+  }
+  
+  .output-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #444;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+  }
+  
+  .output-section h3 {
+    color: #C3B1E1;
+    text-shadow: 0 0 8px #C3B1E1, 0 0 8px rgba(195, 177, 225, 0.5);
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .output-section pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+    color: #ddd;
+    margin: 0;
+  }
+  
+  .logs-section h3 {
+    color: #C3B1E1;
+    text-shadow: 0 0 8px #C3B1E1, 0 0 8px rgba(195, 177, 225, 0.5);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .log-container {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #444;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+  }
+  
+  .log-container p {
+    margin-bottom: 5px;
+    color: #ddd;
+  }
+  
+  .log-emphasis {
+    color: #00ffff; /* Emphasis color */
+    font-weight: bold;
+  }
+  
+  .glow-text {
+    color: #C3B1E1;
+    text-shadow: 0 0 5px #C3B1E1, 0 0 5px rgba(195, 177, 225, 0.5);
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #ffffff;
+    box-sizing: border-box;
+  }

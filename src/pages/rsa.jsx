@@ -1,17 +1,17 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import '../styles/home.css';
-import AESProcess from '../components/AESProcess';
+import RSAProcess from '../components/RSAProcess';
 
-const AESPage = () => {
+const RSAPage = () => {
   return (
     <div className="home-container" style={{ paddingTop: '55px' }}>
       <Navbar />
       <div className="home-content">
-          <AESProcess />
+          <RSAProcess />
       </div>
     </div>
   );
 };
 
-export default AESPage;
+export default RSAPage;

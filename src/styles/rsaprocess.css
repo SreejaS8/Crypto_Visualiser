@@ -1,0 +1,153 @@
+.rsa-process-container {
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .rsa-process-container h2,
+  .rsa-process-container h3 {
+    color: #C3B1E1;
+    text-shadow: 0 0 10px #C3B1E1, 0 0 10px rgba(195, 177, 225, 0.5);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .keys-section,
+  .encryption-section,
+  .decryption-section {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+  }
+  
+  .input-pair {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-pair label {
+    flex-basis: 150px;
+    margin-right: 10px;
+    color: #ddd;
+  }
+  
+  .input-field {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  
+  .generate-button,
+  .encrypt-button,
+  .decrypt-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #C3B1E1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #C3B1E1, 0 0 5px rgba(195, 177, 225, 0.5);
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .generate-button:hover,
+  .encrypt-button:hover,
+  .decrypt-button:hover {
+    background-color: #555;
+  }
+  
+  .modulus,
+  .totient,
+  .public-exponent,
+  .private-exponent,
+  .ciphertext,
+  .decrypted {
+    margin-top: 10px;
+    color: #ddd;
+  }
+  
+  .value {
+    font-weight: bold;
+    color: #00ffff; /* Highlight color */
+  }
+  
+  .logs-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .log-container {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #444;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .log-container p {
+    margin-bottom: 5px;
+    color: #ddd;
+  }
+  
+  .log-emphasis {
+    color: #00ffff;
+    font-weight: bold;
+  }
+  
+  .glow-text {
+    color: #C3B1E1;
+    text-shadow: 0 0 5px #C3B1E1, 0 0 5px rgba(195, 177, 225, 0.5);
+  }
+  
+  .prime {
+    color: #aaffaa; /* Greenish for primes */
+  }
+  
+  .modulus {
+    color: #ffcc80; /* Orangeish for modulus */
+  }
+  
+  .totient {
+    color: #b39ddb; /* Purplish for totient */
+  }
+  
+  .public-exponent {
+    color: #64b5f6; /* Blueish for public exponent */
+  }
+  
+  .private-exponent {
+    color: #f48fb1; /* Pinkish for private exponent */
+  }
+  
+  .message {
+    color: #fffacd; /* Light yellow for message */
+  }
+  
+  .ciphertext {
+    color: #afeeee; /* Light cyan for ciphertext */
+  }
+  
+  .decrypted {
+    color: #aaffaa; /* Greenish for decrypted (back to plaintext color) */
+  }
+  
+  .highlight {
+    color: #ffff00; /* Yellow for highlighting steps */
+    font-weight: bold;
+  }
